@@ -2,8 +2,51 @@
 <html>
     <head>
         <title>First Page - CodeQueen6</title>
+        <style>
+            /*selector {rule:value;}*/
+            /*
+            -element/tag selector-#
+            -id selector"#"
+            -class ","
+            -attribute
+            */
+            body{
+                margin:0;
+                background-color: rgb(63, 63, 95);
+                color: #f2f2f2;
+               
+            }
+            p{
+                margin-left: 5px;
+            }
+            /* element selector*/
+            #first{
+                color:#fff;
+                background-color: rgb(12, 2, 46);
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30px;
+                font-style: normal;
+                padding: 20px;
+                opacity:50 ;
+                float: none;
+                
+
+            }
+            p.second{
+                width: 50%;
+                float: left;
+
+            }
+            p.third{
+                width:50%;
+                float: right;
+            }
+            span{
+                background-color: black;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-color:aliceblue(240, 0, 0)">
         <header>
             <nav>
                 <ul>
@@ -14,19 +57,19 @@
             </nav>
         </header>
         <h3>Breakfast Menu</h3>
-        <ul type="square">
+        <ul id="menu-ul"type="square">
             <li>Eggs</li>
             <li>Black tea</li>
             <li>Sausages</li>
         </ul>
-        <h3>Lunch Menu</h3>
+        <h3 style="color:rgb(0, 36, 28);font-size:12px">Lunch Menu</h3>
         <ol type="i">
             <li>Vegetable rice</li>
             <li>Matooke</li>
             <li>Beef</li>
         </ol>
         <h3>Lunch Menu</h3>
-        <ol type="a">
+        <ol id="menu-ol"type="a">
             <li>Vegetable rice</li>
             <li>Matooke</li>
             <li>Beef</li>
@@ -44,12 +87,18 @@
         <h4>I am a heading</h4>
         <h5>I am a heading</h5>
         <h6>I am a heading</h6>-->
-       <!--
-        <p style="color:green">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> <br>Ullam dicta asperiores iure sit minus ex inventore expedita esse aperiam commodi, unde ut totam laudantium eveniet labore perferendis voluptatibus eaque qui vitae? Explicabo, incidunt quis officiis accusantium voluptate temporibus alias. Magnam, aut. Deleniti ipsa neque libero consectetur maiores, eaque, ab cumque doloribus natus itaque sed ea perferendis reiciendis repudiandae eos illum! Temporibus in, expedita cum, esse numquam ex sint, voluptatum quaerat eveniet sunt fugit perspiciatis? Doloribus, suscipit. Deserunt dolor nemo libero minima ut expedita ex iure.
-        </p>-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ullam dicta asperiores iure sit minus ex inventore expedita esse aperiam commodi, unde ut totam laudantium eveniet labore perferendis voluptatibus eaque qui vitae? Explicabo, incidunt quis officiis accusantium voluptate temporibus alias. Magnam, aut. Deleniti ipsa neque libero consectetur maiores, eaque, ab cumque doloribus natus itaque sed ea perferendis reiciendis repudiandae eos illum! Temporibus in, expedita cum, esse numquam ex sint, voluptatum quaerat eveniet sunt fugit perspiciatis? Doloribus, suscipit. Deserunt dolor nemo libero minima ut expedita ex iure.
+       
+        <p id="first">
+            <span>sample heading 1</span>
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> <br>Ullam dicta asperiores iure sit minus ex inventore expedita esse aperiam commodi, unde ut totam laudantium eveniet labore perferendis voluptatibus eaque qui vitae? Explicabo, incidunt quis officiis accusantium voluptate temporibus alias. Magnam, aut. Deleniti ipsa neque libero consectetur maiores, eaque, ab cumque doloribus natus itaque sed ea perferendis reiciendis repudiandae eos illum! Temporibus in, expedita cum, esse numquam ex sint, voluptatum quaerat eveniet sunt fugit perspiciatis? Doloribus, suscipit. Deserunt dolor nemo libero minima ut expedita ex iure.
         </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta asperiores iure sit minus ex inventore expedita esse aperiam commodi, unde ut totam laudantium eveniet labore perferendis voluptatibus eaque qui vitae? Explicabo, incidunt quis officiis accusantium voluptate temporibus alias. Magnam, aut. Deleniti ipsa neque libero consectetur maiores, eaque, ab cumque doloribus natus itaque sed ea perferendis reiciendis repudiandae eos illum! Temporibus in, expedita cum, esse numquam ex sint, voluptatum quaerat eveniet sunt fugit perspiciatis? Doloribus, suscipit. Deserunt dolor nemo libero minima ut expedita ex iure.
+        <p class="second">
+            <span>sample heading 2</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ullam dicta asperiores iure sit minus ex inventore expedita esse aperiam commodi, unde ut totam laudantium eveniet labore perferendis voluptatibus eaque qui vitae? Explicabo, incidunt quis officiis accusantium voluptate temporibus alias. Magnam, aut. Deleniti ipsa neque libero consectetur maiores, eaque, ab cumque doloribus natus itaque sed ea perferendis reiciendis repudiandae eos illum! Temporibus in, expedita cum, esse numquam ex sint, voluptatum quaerat eveniet sunt fugit perspiciatis? Doloribus, suscipit. Deserunt dolor nemo libero minima ut expedita ex iure.
+        </p>
+        <p class="third">
+            <span>sample heading 3</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta asperiores iure sit minus ex inventore expedita esse aperiam commodi, unde ut totam laudantium eveniet labore perferendis voluptatibus eaque qui vitae? Explicabo, incidunt quis officiis accusantium voluptate temporibus alias. Magnam, aut. Deleniti ipsa neque libero consectetur maiores, eaque, ab cumque doloribus natus itaque sed ea perferendis reiciendis repudiandae eos illum! Temporibus in, expedita cum, esse numquam ex sint, voluptatum quaerat eveniet sunt fugit perspiciatis? Doloribus, suscipit. Deserunt dolor nemo libero minima ut expedita ex iure.
         </p>
         <!--address to our office-->
         <div  class="address">
