@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: gray;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.item{
+    font-size: 30px;
+    background-color: blue;
+    color: aliceblue;
+    border: #fff 1px solid;
+    margin:10px;
+}
+.item-4{
+    font-size: 50px;
+}

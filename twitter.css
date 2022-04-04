@@ -5,35 +5,42 @@
    
 }
 .container{
-    width: 1000px;
-    height: 400px;
+    width: 1400px;
+    height: 800px;
     background-color: grey;
 }
 .white{
-    width: 500px;
-    height:400px;
+    width: 700px;
+    height:800px;
     background-color: rgb(91, 169, 241);
     float: left;
     
 }
 .blue{
-    width: 500px;
-    height:400px;
-    background-color: rgb(22, 132, 228);
+    width: 700px;
+    height:800px;
+    background-color: rgb(253, 254, 255);
     float: right;
 }
-.box1,.box2{
-    padding-left: 150px;
-    padding-right: 100px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+.box1{
+    padding-left: 220px;
+    padding-right: 200px;
+    padding-top: 220px;
+    padding-bottom: 230px;
     color: white;
+}
+.box2{
+    padding-left: 220px;
+    padding-right: 200px;
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: #000;
 }
 p{
     padding:10px;
 }
 .box2 h3{
-    font-size: 26px;
+    font-size: 18px;
 }
 .box2 button{
     width: 200px;
@@ -41,4 +48,12 @@ p{
     text-align: center;
     border-radius:20px;
     border: 0px;
+    background-color: rgb(91, 169, 241);
+    
+    
+}
+
+.twitter{
+    color:rgb(91, 169, 241);
+    padding-left: 10px;
 }
